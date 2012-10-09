@@ -37,6 +37,8 @@
 		A60DF0851623C7250027171F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A60DF0841623C7250027171F /* AppDelegate.m */; };
 		A60DF0881623C7250027171F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60DF0871623C7250027171F /* MainViewController.m */; };
 		A60DF08A1623C7250027171F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A60DF0891623C7250027171F /* MainViewController.xib */; };
+		A60DF0941623C75B0027171F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A60DF0931623C75B0027171F /* Default-568h@2x.png */; };
+		A60DF0961623C7870027171F /* www in Resources */ = {isa = PBXBuildFile; fileRef = A60DF0951623C7870027171F /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		A60DF0891623C7250027171F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
 		A60DF08C1623C7250027171F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		A60DF08D1623C7250027171F /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		A60DF0931623C75B0027171F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A60DF0951623C7870027171F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		A60DF02A1623C7250027171F = {
 			isa = PBXGroup;
 			children = (
+				A60DF0951623C7870027171F /* www */,
+				A60DF0931623C75B0027171F /* Default-568h@2x.png */,
 				A60DF0561623C7250027171F /* fileapp */,
 				A60DF03B1623C7250027171F /* Frameworks */,
 				A60DF0391623C7250027171F /* Products */,
@@ -328,6 +334,8 @@
 				A60DF07F1623C7250027171F /* Capture.bundle in Resources */,
 				A60DF0811623C7250027171F /* Cordova.plist in Resources */,
 				A60DF08A1623C7250027171F /* MainViewController.xib in Resources */,
+				A60DF0941623C75B0027171F /* Default-568h@2x.png in Resources */,
+				A60DF0961623C7870027171F /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -464,6 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
